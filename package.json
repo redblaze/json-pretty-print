@@ -1,0 +1,26 @@
+{
+    "name": "json-pretty-print",
+    "description": "A simple command line tool for converting JSON files to pretty printed format.",
+    "main": "./lib/cps",
+    "author": "Chiyan Chen",
+    "version": "0.0.4",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/redblaze/json-pretty-print.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/redblaze/json-pretty-print/issues"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "https://github.com/redblaze/json-pretty-print/raw/master/LICENSE"
+        }
+    ],
+    "bin": {
+        "json-pretty-print": "./bin/json-pretty-print.js"
+    },
+    "dependencies": {
+        "cps": "*"
+    }
+}
